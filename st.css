@@ -1,0 +1,17 @@
+input{
+	
+	
+	display: block;
+    padding: 25px 50px;
+
+	margin: 10px;
+	
+	
+}
+.box{
+width:100px;
+height:100px;
+display:inline-block;
+background:red;
+margin:10px	;
+}

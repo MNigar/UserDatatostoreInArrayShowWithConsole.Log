@@ -2,13 +2,13 @@
 btn=document.querySelector(".btn");
 var t="Elave edilib";
 ad=document.querySelector('.UserName');
-	soyad=document.querySelector('.UserSurName');
+	soyad=document.querySelector('.UserSurname');
 	email=document.querySelector('.Email');
 	tarix=document.querySelector('.Date');
 	data=[]
 btn.addEventListener('click',function(){
 	user= new UserData(ad.value,soyad.value,email.value,tarix.value);
-	data=push(user);
+	data.push(user);
 	console.log(data);
 })
 	let w=100

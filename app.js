@@ -8,7 +8,7 @@ ad=document.querySelector('.UserName');
 	data=[]
 btn.addEventListener('click',function(){
 	user= new UserData(ad.value,soyad.value,email.value,tarix.value);
-	data=[user];
+	data=push(user);
 	console.log(data);
 })
 	let w=100
